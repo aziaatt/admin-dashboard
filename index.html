@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+            <div class="left-content">
+                <div class="logo">
+                    <img src="alper-logo.svg">
+                </div>
+                <div class="navbar">
+                    <div class="icons-desk dashboard">
+                        <div id="active-desk"></div>
+                        <img src="home.png" id="home">
+                        <p>Dashboard</p>
+                    </div>
+                    <div class="icons-desk messages">
+                        <img src="email.png" id="email">
+                        <p>Messages</p>
+                    </div>
+                    <div class="icons-desk projects">
+                        <img src="layers.png" id="project">
+                        <p>Projects</p>
+                    </div>
+                    <div class="icons-desk profile">
+                        <img src="user.png" id="user">
+                        <p>Profile</p>
+                    </div>
+                    <div class="icons-desk contact">
+                        <img src="contact-book.png">
+                        <p>Contact</p>
+                    </div>
+                    <div class="icons-desk settings">
+                        <img src="setting.png" id="settings">
+                        <p>Settings</p>
+                    </div>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/aziaatt/admin-dashboard">
+                        <img src="github.png">
+                    </a>
+                </div>
+            </div>
+            <div class="middle-content">
+                <div class="searchbar">
+                    <a href="#"><img src="loupe.png"></a>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="projects-desk">
+                    <div class="project-header">
+                        <h2>My Projects</h2>
+                        <div class="project-categories">
+                            <a href=#"><p>Recent</p></a>
+                            <a href=#"><p>Popular</p></a>
+                            <a href=#"><p>Most Liked</p></a>
+                        </div>
+                    </div>
+                    <div class="project-blocks">
+                        <div class="rock-paper-scissors">
+                            <a href="#">
+                                <img class="project" src="rockpaperscissors.gif">
+                            </a>
+                            <div class="div-heading">
+                                <h3>Rock Paper Scissors</h3>
+                                <div class="sharing-desk">
+                                    <div class="favorite">
+                                        <img src="favorites.png">
+                                    </div>
+                                    <p class="bar">|</p>
+                                    <div class="comment">
+                                        <img src="bubble-chat.png">
+                                    </div>
+                                    <p class="bar">|</p>
+                                    <div class="share">
+                                        <img src="share.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="etch-a-sketch">
+                            <a href="#">
+                                <img class="project" src="etch-min.png">
+                            </a>
+                            <div class="div-heading">
+                                <h3>Etch-A-Sketch</h3>
+                                <div class="sharing-desk">
+                                    <div class="favorite">
+                                        <img src="favorites.png">
+                                    </div>
+                                    <p class="bar">|</p>
+                                    <div class="comment">
+                                        <img src="bubble-chat.png">
+                                    </div>
+                                    <p class="bar">|</p>
+                                    <div class="share">
+                                        <img src="share.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sign-up-form">
+                            <a href="#">
+                                <img class="project" src="form-min.png">
+                            </a>
+                            <div class="div-heading">
+                                <h3>Sign-Up Form</h3>
+                                <div class="sharing-desk">
+                                    <div class="favorite">
+                                        <img src="favorites.png">
+                                    </div>
+                                    <p class="bar">|</p>
+                                    <div class="comment">
+                                        <img src="bubble-chat.png">
+                                    </div>
+                                    <p class="bar">|</p>
+                                    <div class="share">
+                                        <img src="share.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-credits">
+                        <div class="footer">
+                            <p>In this project I utilised my <b>intermediate</b> CSS and HTML skills, I learned CSS Grid in the last few lessons, and combined it together with flexbox to create this pretty nice admin dashboard!
+                            </p>
+                            &copy; Alper Sonmez 2023 <a href="https://github.com/aziaatt/sign-up-form">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="profile-picture">
+                    <img class="notification" src="bell.svg">
+                    <img class="profile-pic" src="bull.jpg">
+                </div>
+                <div class="announcements">
+                    <h2 id="header">Announcements</h2>
+                    <div class="box-with-announcements">
+                        <h2 id="box-header">Maintenance</h2>
+                        <p>The site is currently under maintenance, a lot of
+                            projects will follow, because I will become a better programmer, with cooler projects.
+                        </p>
+                        <div class="horizontal-line"></div>
+                        <h2 id="another-message"> Here another message! </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="statistics">
+                    <h2 id="header">Statistics</h2>
+                    <img id="stats" src="stats1.jpg">
+                    <div class="stats-text">
+                        <p id="showcase">Hourly Updates</p>
+                        <p id="stat-num">78%</p>
+                        <p id="increased">Increased per hour</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
