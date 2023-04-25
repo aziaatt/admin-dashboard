@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-    --background-container: #e7bdff;
-    --background-body: #ff8af9;
+    --background-container: #bde5ff;
+    --background-body: #81fff9;
     --text: #fff
 }
 
@@ -60,7 +60,7 @@ body{
     height: 100%;
     overflow: hidden;
     margin: 10px;
-    background-color: #ff8af9;
+    background-color: var(--background-body);
 	background-size: 400% 400%;
     display: flex;
     justify-content: center;
@@ -109,7 +109,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: flex-start;
-    background-color: #feedff;
+    background-color: #ffffff;
     max-width: 250px;
     height: 30px;
     border-radius: 30px;
@@ -130,7 +130,7 @@ body{
     height: 36px;
     font-size: 1.2em;
     border-radius: 30px;
-    background-color: #feedff
+    background-color: #ffffff
 }
 .searchbar input[type="text"]:focus{
     outline: none;
@@ -163,7 +163,7 @@ body{
     border-radius: 20px;
 }
 img.project{
-    box-shadow: 1px 30px 35px #7702714d
+    box-shadow: 1px 30px 35px #0273774d
 }
 
 .sharing-desk img{
@@ -305,7 +305,7 @@ img.project{
     background-color: var(--background-body);
     padding: 25px;
     margin-top: 10px;
-    box-shadow: 5px 20px 35px #00303857;
+    box-shadow: 5px 20px 35px #0f899e57;
 }
 .box-with-announcements p{
     display: flex;
